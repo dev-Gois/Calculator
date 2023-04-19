@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculadora {
+    background-color: #c5c5c5;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #a5a5a5;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+}
+
+.tela {
+    background-color: #fff;
+    height: 70px;
+    border: 1px dotted #b9b9b9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.tela:hover {
+    background-color: #e8e8e8;
+}
+
+#display {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    text-align: right;
+    border: none;
+    outline: none;
+    cursor: default;
+}
+
+.butoes {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: end;   
+}
+
+.butoes button {
+    width: 25%;
+    height: 50px;
+    font-size: 30px;
+    background-color: #fff;
+    border: 1px solid #acacac;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.butoes .funcao {
+    color: #fff;
+    background-color: #ff9900;
+}
+
+.butoes .funcao:hover {
+    background-color: #ff9900c0;
+}
+
+.butoes .funcao:active {
+    background-color: #cf7c00;
+}
+.butoes button:hover {
+    background-color: #dfdfdf;
+}
+
+.butoes button:active {
+    background-color: #c9c9c9;
+}
+
+.butoes #ponto {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
