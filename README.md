@@ -1,11 +1,14 @@
-# Calculator
+# ➕ Calculadora
 
-// EN - US
+Uma aplicação simples de uma calculadora.
 
-This is a simple calculator using JavaScript
+## 🛠 Funcionalidade:
 
-// PT - BR
+- Realizar operações de soma, subtração, multiplicação, divisão e porcentagem
+- Interação com o teclado
 
-Uma calculadora simples usando JavaScript
+## 💻 Tecnologias:
 
-https://dev-gois.github.io/Calculator/calculadora.html
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+/ Não foi utilizado nenhum framework, apenas JS, HTML e CSS
